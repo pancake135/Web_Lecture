@@ -1,0 +1,20 @@
+input:disabled {
+    background-color: darkgray;
+    color: gray;}
+input:checked {
+    accent-color: pink;
+}
+input:focus {
+    background-color: greenyellow;
+}
+input:enabled {
+    border: 2px solid darkblue;
+}
+#header{
+    width: 758x; margin: 0 auto;
+    background: gold;
+}
+#content{
+    background: blanchedalmond;
+}
+.select {color: green;}
