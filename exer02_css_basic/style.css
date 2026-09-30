@@ -1,4 +1,4 @@
-input:disabled {
+/* input:disabled {
     background-color: darkgray;
     color: gray;}
 input:checked {
@@ -17,4 +17,126 @@ input:enabled {
 #content{
     background: blanchedalmond;
 }
-.select {color: green;}
+.select {color: green;} */
+
+/* 웹프로젝트 용 */
+body {
+    background-color: gray;
+    margin: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.board {
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(79, 79, 255);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.profile {
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.profile_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid greenyellow;
+}
+
+.sort {
+    display: flex;
+    gap: 30px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 40px;
+}
+
+.box2 {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 40px;
+}
+
+.box3 {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lawngreen;
+    text-align: center;
+    line-height: 40px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    background: rgb(224, 255, 177);
+}
+
+input[type=email]{
+    border-radius: 5px;
+    background: #ffd1f5;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+.notice {
+    margin-left: 80px;
+}
+
+input[type=submit]{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: brown;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#user:enabled{
+    border: 2px solid rgb(24, 106, 11);
+}
+
+input[type = submit]:hover{
+    color: darkred;
+}
