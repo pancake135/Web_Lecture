@@ -1,0 +1,19 @@
+.container01 {
+    overflow: hidden ;
+}
+
+.item01 {
+    float: left;
+    /* width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 2; */
+    padding: 5px;
+    margin: 0 3px;
+    border: 1px solid black;
+}
+
+.margin_02{
+    margin: 0 auto;
+    width: 500px;
+}

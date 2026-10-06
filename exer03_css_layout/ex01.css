@@ -1,0 +1,33 @@
+header{
+    overflow: hidden;
+}
+
+header h3{
+    float: left;
+}
+
+.content{
+    float: right;
+}
+
+.box1{
+    width: 500px;
+    height: 150px;
+    padding-left: 20px;
+    float: left;
+    margin: 0 5px;
+    border: 1px solid black;
+}
+
+.box2{
+    width: 200px;
+    padding-left: 20px;
+    height: 180px;
+    margin: 0 5px;
+    float: right;
+    border: 1px solid black;
+}
+
+footer{
+    text-align: center;
+}
