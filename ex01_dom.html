@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            let header1 = document.getElementById('header');
+            let header2 = document.querySelector('h2');
+            let content1 = document.getElementsByClassName('item');
+            let content2 = document.getElementsByName('message');
+            let content3 = document.querySelectorAll('p');
+            header1.style.color = 'Blue';
+            header2.textContent = '자바스크립트로 변경한 제목';
+            for (let j=0; j<3; j++){
+                content1[j].style.color = 'Red';
+            }
+            for (let k=0; k<2; k++){
+                content2[k].style.background = 'Yellow';
+            }
+            for (let i=0; i<5; i++){
+                content3[i].style.fontWeight = 'bold';
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <h1 id="header">DOM 선택 실습</h1>
+    <h2>JavaScript로 변경한 제목</h2>
+    <p class="item"> 첫 번째 항목 </p>
+    <p class="item"> 두 번째 항목 </p>
+    <p class="item"> 세 번째 항목 </p>
+    <p name="message"> 안녕하세요! </p>
+    <p name="message"> JavaScript 실습입니다. </p>
+</body>
+</html>
